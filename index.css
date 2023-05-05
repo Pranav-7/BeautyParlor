@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header span .bx{
+font-size: 30px;
+}
+header {
+  width: auto;
+  height: 50px;
+  background: #f9f3f1;
+}
+
+.banner {
+  width: auto;
+  height: 500px;
+  background-image: url("./img/bannerimg.png");
+  background-size: cover;
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 104px;
+  color: #ffffff;
+}
+.welcome{
+    width: 100%;
+    padding: 5rem 0rem;
+}
+.welcome .row {
+  padding: 5rem 0rem;
+  width: auto;
+
+}
+.welcome .left-wel{
+    position: relative;
+}
+.welcome .left-wel .rectangle {
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  width: 218px;
+  height: 347px;
+  background: #ffffff;
+  border: 10px solid #b58152;
+  border-radius: 14px;
+}
+
+.welcome .left-wel .img-wel {
+  background-image: url("./img/welcome.png");
+  position: absolute;
+  width: 510px;
+  height: 310px;
+ 
+}
+
+.welcome .right-wel {
+  text-align: left;
+  position: relative;
+}
+
+.welcome .right-wel .label-wel {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: bold;
+  color: #000000;
+}
+.welcome .right-wel .title-wel {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: bold;
+  color: #000000;
+}
+.welcome .right-wel .para-wel {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+  color: #555555;
+}
+.service{
+    background: #E5E5E5;
+    padding: 5rem;
+}
+
+.service .service-flow{
+    position: relative;
+}
+.service .service-flow .title-flow{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 46px;
+text-align: center;
+color: #000000;
+}
+.service .service-flow .text-flow{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+color: #555555;
+}
+
+.service .service-flow .dig-div{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    z-index: 99;
+}
+
+.service .service-flow .dig-div::after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 1px;
+  background-color: #A2886A;
+  
+ 
+}
+.service .dig-div .digone{
+    background: #A2886A;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .dig-div .digtwo,.digthree,.digfour,.digfive{
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
